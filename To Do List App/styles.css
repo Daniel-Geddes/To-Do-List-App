@@ -1,0 +1,108 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+
+html, body {
+    background: url(pexels-carlos-oliva-3586966.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    width: 75%;
+    color: #fff;
+
+}
+
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 0;
+}
+
+.container {
+    width: 75%;
+}
+
+#btn-primary {
+    height: auto;
+    width: auto;
+    font-size: medium;
+    vertical-align: middle;
+    color: #fff;
+    opacity: 0.7;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#input-field {
+    font-size: large;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 90%;
+}
+
+input {
+    background-color: black;
+    border-width: 0px;
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+p {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(206, 206, 206);
+    color: black;
+    font-weight: bold;
+    margin: 3px;
+    padding-left: 2px;
+    
+    
+}
+
+
+.to-do {
+    margin-top: 25px;
+    display: none;
+    width: auto;
+    height: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+    border: #fff;
+}
+
+.paragraph-styling {
+    width: auto;
+    height: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+}
+
+.fa-star {
+    float: right;
+    color: rgb(57, 53, 255);
+    padding-top: 4px;
+    padding-right: 6px;
+    z-index: 10;
+}
+
+#top-tasks {
+    display: none;
+}
+
+#tasks {
+    display: none;
+}
+
+
+  
